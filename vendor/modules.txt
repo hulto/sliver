@@ -1,3 +1,5 @@
+# cloud.google.com/go/compute/metadata v0.2.3
+## explicit; go 1.19
 # github.com/AlecAivazis/survey/v2 v2.3.6
 ## explicit; go 1.13
 github.com/AlecAivazis/survey/v2
@@ -461,7 +463,7 @@ github.com/xlab/treeprint
 # github.com/yiya1989/sshkrb5 v0.0.0-20201110125252-a1455b75a35e
 ## explicit; go 1.14
 github.com/yiya1989/sshkrb5/krb5forssh
-# golang.org/x/crypto v0.9.0
+# golang.org/x/crypto v0.11.0
 ## explicit; go 1.17
 golang.org/x/crypto/acme
 golang.org/x/crypto/acme/autocert
@@ -501,7 +503,7 @@ golang.org/x/exp/slog/internal/buffer
 # golang.org/x/mod v0.8.0
 ## explicit; go 1.17
 golang.org/x/mod/semver
-# golang.org/x/net v0.10.0
+# golang.org/x/net v0.12.0
 ## explicit; go 1.17
 golang.org/x/net/bpf
 golang.org/x/net/dns/dnsmessage
@@ -515,7 +517,7 @@ golang.org/x/net/internal/timeseries
 golang.org/x/net/ipv4
 golang.org/x/net/ipv6
 golang.org/x/net/trace
-# golang.org/x/sys v0.8.0
+# golang.org/x/sys v0.10.0
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
@@ -526,10 +528,10 @@ golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
 golang.org/x/sys/windows/svc
 golang.org/x/sys/windows/svc/mgr
-# golang.org/x/term v0.8.0
+# golang.org/x/term v0.10.0
 ## explicit; go 1.17
 golang.org/x/term
-# golang.org/x/text v0.9.0
+# golang.org/x/text v0.11.0
 ## explicit; go 1.17
 golang.org/x/text/cases
 golang.org/x/text/encoding
@@ -586,11 +588,11 @@ golang.zx2c4.com/wireguard/tun
 # golang.zx2c4.com/wireguard/wgctrl v0.0.0-20220208144051-fde48d68ee68
 ## explicit; go 1.13
 golang.zx2c4.com/wireguard/wgctrl/wgtypes
-# google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4
+# google.golang.org/genproto/googleapis/rpc v0.0.0-20230711160842-782d3b101e98
 ## explicit; go 1.19
 google.golang.org/genproto/googleapis/rpc/status
-# google.golang.org/grpc v1.55.0
-## explicit; go 1.17
+# google.golang.org/grpc v1.58.0
+## explicit; go 1.19
 google.golang.org/grpc
 google.golang.org/grpc/attributes
 google.golang.org/grpc/backoff
@@ -620,6 +622,7 @@ google.golang.org/grpc/internal/grpclog
 google.golang.org/grpc/internal/grpcrand
 google.golang.org/grpc/internal/grpcsync
 google.golang.org/grpc/internal/grpcutil
+google.golang.org/grpc/internal/idle
 google.golang.org/grpc/internal/metadata
 google.golang.org/grpc/internal/pretty
 google.golang.org/grpc/internal/resolver
@@ -640,7 +643,7 @@ google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
 google.golang.org/grpc/test/bufconn
-# google.golang.org/protobuf v1.30.0
+# google.golang.org/protobuf v1.31.0
 ## explicit; go 1.11
 google.golang.org/protobuf/encoding/protojson
 google.golang.org/protobuf/encoding/prototext

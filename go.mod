@@ -42,16 +42,16 @@ require (
 	github.com/things-go/go-socks5 v0.0.3
 	github.com/xlab/treeprint v1.2.0
 	github.com/yiya1989/sshkrb5 v0.0.0-20201110125252-a1455b75a35e
-	golang.org/x/crypto v0.9.0
+	golang.org/x/crypto v0.11.0
 	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1
-	golang.org/x/net v0.10.0
-	golang.org/x/sys v0.8.0
-	golang.org/x/term v0.8.0
-	golang.org/x/text v0.9.0
+	golang.org/x/net v0.12.0
+	golang.org/x/sys v0.10.0
+	golang.org/x/term v0.10.0
+	golang.org/x/text v0.11.0
 	golang.zx2c4.com/wireguard v0.0.0-20220316235147-5aff28b14c24
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20220208144051-fde48d68ee68
-	google.golang.org/grpc v1.55.0
-	google.golang.org/protobuf v1.30.0
+	google.golang.org/grpc v1.58.0
+	google.golang.org/protobuf v1.31.0
 	gopkg.in/AlecAivazis/survey.v1 v1.8.8
 	gorm.io/driver/mysql v1.5.1
 	gorm.io/driver/postgres v1.5.2
@@ -62,6 +62,7 @@ require (
 )
 
 require (
+	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	github.com/Binject/shellcode v0.0.0-20191101084904-a8a90e7d4563 // indirect
 	github.com/BurntSushi/xgb v0.0.0-20201008132610-5f9e7b3c49cd // indirect
 	github.com/Microsoft/go-winio v0.5.1 // indirect
@@ -110,7 +111,7 @@ require (
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba // indirect
 	golang.org/x/tools v0.6.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20211104114900-415007cec224 // indirect
-	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230711160842-782d3b101e98 // indirect
 	gopkg.in/jcmturner/aescts.v1 v1.0.1 // indirect
 	gopkg.in/jcmturner/dnsutils.v1 v1.0.1 // indirect
 	gopkg.in/jcmturner/goidentity.v3 v3.0.0 // indirect
